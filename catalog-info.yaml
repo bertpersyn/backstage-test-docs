@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-docs"
+  description: "Test Docs"
+  annotations:
+    github.com/project-slug: "bertpersyn/backstage-test-docs"
+    backstage.io/techdocs-ref: github:https://github.com/bertpersyn/backstage-test-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "bertpersyn"
